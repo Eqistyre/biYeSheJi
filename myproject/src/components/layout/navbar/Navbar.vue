@@ -2,7 +2,7 @@
   <nav class="navbar app-navbar navbar-toggleable-md">
     <div class="navbar-brand-container d-flex align-items-center justify-content-start">
       <a class="navbar-brand" href="#/dashboard">
-        <i class="i-vuestic"></i>
+        <!-- <i class="i-vuestic"></i> -->
       </a>
     </div>
 
@@ -14,7 +14,7 @@
       </div>
 
       <div class="navbar-text offset-md-1 col-md-7 d-none d-lg-flex align-items-center justify-content-center">
-       {{'navbar.messageUs' | translate}}&nbsp;<a href="mailto:hello@epicmax.co">hello@epicmax.co</a>
+       基于大数据的学生行为数据挖掘平台</a>
       </div>
 
       <div class="col nav-item dropdown navbar-dropdown d-flex align-items-center justify-content-center" v-dropdown>
