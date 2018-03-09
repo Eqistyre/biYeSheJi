@@ -1,5 +1,5 @@
 <template>
-  <div class="row dashboard-info-widgets">
+  <!-- <div class="row dashboard-info-widgets">
     <div class="col-md-6 col-xl-3">
       <vuestic-widget class="info-widget">
         <div class="info-widget-inner">
@@ -57,7 +57,7 @@
         </div>
       </vuestic-widget>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>

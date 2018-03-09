@@ -6,7 +6,7 @@ let palette = store.getters.palette
 export default {
   datasets: [
     {
-      label: 'USA',
+      label: '人文科学',
       backgroundColor: utils.hex2rgb(palette.danger, 0.9).css,
       borderColor: palette.transparent,
       data: [
@@ -53,7 +53,7 @@ export default {
       ]
     },
     {
-      label: 'Russia',
+      label: '理工科',
       backgroundColor: utils.hex2rgb(palette.primary, 0.9).css,
       borderColor: palette.transparent,
       data: [
@@ -100,7 +100,7 @@ export default {
       ]
     },
     {
-      label: 'Canada',
+      label: '商科',
       backgroundColor: utils.hex2rgb(palette.warning, 0.9).css,
       borderColor: palette.transparent,
       data: [
@@ -142,7 +142,7 @@ export default {
       ]
     },
     {
-      label: 'Belarus',
+      label: '医科',
       backgroundColor: utils.hex2rgb(palette.info, 0.9).css,
       borderColor: palette.transparent,
       data: [
@@ -189,7 +189,7 @@ export default {
       ]
     },
     {
-      label: 'Ukraine',
+      label: '艺体科',
       backgroundColor: utils.hex2rgb(palette.success, 0.9).css,
       borderColor: palette.transparent,
       data: [

@@ -31,6 +31,9 @@
     height: 100%;
     #app {
       height: 100%;
+      background-image: url('http://p.img.eol.cn/images/1022/2013/1115/1384502820_12_c1lo.jpg');
+      background-repeat:no-repeat; 
+      background-size:100% 100%;
     }
   }
 </style>

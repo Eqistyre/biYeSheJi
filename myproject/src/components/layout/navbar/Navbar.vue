@@ -2,6 +2,7 @@
   <nav class="navbar app-navbar navbar-toggleable-md">
     <div class="navbar-brand-container d-flex align-items-center justify-content-start">
       <a class="navbar-brand" href="#/dashboard">
+        <!-- 原本是个傻x玩意我现在把这个傻x玩意换了 -->
         <!-- <i class="i-vuestic"></i> -->
       </a>
     </div>

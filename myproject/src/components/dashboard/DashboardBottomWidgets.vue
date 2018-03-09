@@ -1,24 +1,32 @@
 <template>
   <div class="row bottom-widgets">
-    <div class="col-md-6 d-flex">
+    <div class="col-md-12 d-flex">
+      <vuestic-widget class="chart-widget" :headerText="'charts.bubbleChart' | translate">
+        <vuestic-chart v-bind:data="bubbleChartData" type="bubble"></vuestic-chart>
+      </vuestic-widget>
+    </div>
+    <!-- 这边弄成学生的那些最新回复啊啊啊啊 -->
+    <div class="col-md-12 d-flex">
       <vuestic-widget class="no-h-padding no-v-padding">
         <vuestic-feed :initialPosts="posts"></vuestic-feed>
       </vuestic-widget>
     </div>
-    <div class="col-md-6 d-flex">
+    <!-- <div class="col-md-6 d-flex">
       <vuestic-widget class="business-posts">
         <vuestic-social-news class="vuestic-social-news" :news="news" :url="'http://instagram.com/smartapant'"></vuestic-social-news>
       </vuestic-widget>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
+  import BubbleChartData from 'data/charts/BubbleChartData'
   export default {
     name: 'dashboard-bottom-widgets',
 
     data () {
       return {
+        bubbleChartData: BubbleChartData,
         posts: [
           {
             name: 'Irina Myatelskaya',

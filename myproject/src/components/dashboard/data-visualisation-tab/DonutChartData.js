@@ -3,10 +3,10 @@ import store from 'vuex-store'
 let palette = store.getters.palette
 
 export default {
-  labels: ['North America', 'South America', 'Australia'],
+  labels: ['积极情感', '负面情感'],
   datasets: [{
-    label: 'Population (millions)',
-    backgroundColor: [palette.info, palette.warning, palette.primary],
-    data: [3000, 6000, 1500]
+    label: '百分比',
+    backgroundColor: [palette.info, palette.warning],
+    data: [3000, 6000]
   }]
 }

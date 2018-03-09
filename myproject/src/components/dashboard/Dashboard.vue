@@ -4,18 +4,12 @@
     <dashboard-info-widgets></dashboard-info-widgets>
 
     <vuestic-widget class="no-padding no-v-padding">
-      <vuestic-tabs :names="[$t('dashboard.dataVisualization'), $t('dashboard.usersAndMembers'), $t('dashboard.setupProfile'), $t('dashboard.features')]" ref="tabs">
-        <div :slot="$t('dashboard.dataVisualization')">
+      <vuestic-tabs :names="[$t('情感数据挖掘'), $t('在线即时对话')]" ref="tabs">
+        <div :slot="$t('情感数据挖掘')">
           <data-visualisation-tab></data-visualisation-tab>
         </div>
-        <div :slot="$t('dashboard.usersAndMembers')">
+        <div :slot="$t('在线即时对话')">
           <users-members-tab></users-members-tab>
-        </div>
-        <div :slot="$t('dashboard.setupProfile')">
-          <setup-profile-tab></setup-profile-tab>
-        </div>
-        <div :slot="$t('dashboard.features')">
-          <features-tab></features-tab>
         </div>
       </vuestic-tabs>
     </vuestic-widget>

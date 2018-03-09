@@ -20,6 +20,7 @@
 </template>
 
 <script>
+
   import StickyScroll from 'vuestic-directives/StickyScroll'
 
   export default {

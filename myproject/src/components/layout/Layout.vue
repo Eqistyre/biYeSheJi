@@ -12,7 +12,7 @@
     </div>
 
     <div class="made-by-footer">
-      ©2018. Made by&nbsp;<a href="http://epicmax.co" target="_blank">Epicmax</a>
+      ©2018. Made by&nbsp;<a href="http://baidu.com" target="_blank">ZhangZhonghao</a>
     </div>
   </div>
 </template>

@@ -7,8 +7,10 @@ import store from './store'
 import router from './router'
 import { sync } from 'vuex-router-sync'
 import VuesticPlugin from 'vuestic-theme/vuestic-plugin'
+import VueResource from 'vue-resource'
 import './i18n'
 
+Vue.use(VueResource)
 Vue.use(VuesticPlugin)
 
 // NOTE: workaround for VeeValidate + vuetable-2
